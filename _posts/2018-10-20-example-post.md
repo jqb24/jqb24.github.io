@@ -65,7 +65,7 @@ return (pd.concat(datas, keys=tickers, names=['Ticker'])
 ## Next Subtitle
 * Here
 * is
-* a list
+* a bulleted list
 
 ### Numbered list
 1. Here
@@ -74,6 +74,8 @@ return (pd.concat(datas, keys=tickers, names=['Ticker'])
 4. list
 
 ## LaTeX!!!
+In order to enable LaTeX on a blog post add `use_math : true` to the post's header
+
 You can display equations as a block...
 $$
 \begin{bmatrix}
@@ -84,5 +86,5 @@ $$
 =
 $$
 
-### inline LaTeX
-or you can display equations inline $\displaystyle\lim_{x\rightarrow8}\frac{1}{x{-}8}=\infty$
+### inline
+You can display equations inline $\displaystyle\lim_{x\rightarrow8}\frac{1}{x{-}8}=\infty$
