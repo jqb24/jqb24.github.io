@@ -74,9 +74,10 @@ return (pd.concat(datas, keys=tickers, names=['Ticker'])
 4. list
 
 ## LaTeX!!!
-In order to enable LaTeX on a blog post add `use_math : true` to the post's header
+In order to enable LaTeX on a blog post add `use_math : true` to the post's header.
 
 You can display equations as a block...
+
 $$
 \begin{bmatrix}
     \cos 90^{\circ} & \sin 90^{\circ}\\
